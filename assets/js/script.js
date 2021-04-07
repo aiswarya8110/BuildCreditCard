@@ -7,6 +7,7 @@ $(document).ready(function(){
     navigation:true,
     autoWidth:true,
     autoplay:true,
+    lazyLoad:true,
     autoplayTimeout:3000,
     loop:true,
     margin:40,
