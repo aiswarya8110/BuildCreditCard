@@ -1,0 +1,336 @@
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-toggler{
+    background-color:transparent !important;
+}
+
+.navbar-toggler-icon{
+    color: rgb(20, 10, 10) !important;
+    font-size: 1rem;
+}
+
+.nav-item{
+    margin: 0 1rem;
+}
+
+.nav-btn-two{
+    border-radius: 2px;
+    padding: 0.4rem 1rem;
+}
+
+.nav-item .nav-link{
+    color: #000 !important;
+}
+
+.btn-primary{
+    color: #fff !important;
+    background-color: rgb(22, 22, 22);
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-primary:focus{
+    background-color: black !important;
+    
+}
+
+.btn-primary:active{
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-primary:hover{
+    background-color: black !important;
+}
+
+.btn-secondary{
+    color: #fff !important;
+    background-color: rgb(252, 87, 87);
+    border: none;
+    padding: 0.4rem 2rem;
+    border-radius: 20px;
+}
+
+.btn-secondary:focus{
+    background-color: rgb(240, 52, 52);
+}
+
+.btn-secondary:active{
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(240, 52, 52);
+}
+
+.btn-dark{
+    background-color: rgb(92, 87, 122) !important;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.4rem 1.6rem;
+    border: none;
+}
+
+.btn-dark:hover{
+    background-color: rgb(97, 90, 131) !important;
+}
+
+.main-text{
+ height: 100vh;
+}
+
+.sub-text{
+    height: 60vh;
+    background-color: rgb(110, 85, 134);
+    color: #fff;
+}
+
+.sub-text-ad-two{
+    display: none;
+    visibility: hidden;
+}
+
+.sub-text-link{
+    color: rgb(236, 233, 233);
+}
+.sub-text-link:hover{
+    color: #fff;
+}
+
+select{
+    border-radius: 20px !important;
+    width: 240px !important;
+}
+
+.btn-dark-two{
+    background-color: rgb(22, 22, 22,0.6);
+    border-radius: 40%;
+    color: #fff;
+    margin-left: 10px;
+}
+.form-container{
+    height: 60vh;
+}
+
+.form-div-container{
+    height: 100%;
+    background-color: rgb(169, 222, 253);
+}
+
+.form-sub-two{
+    display: none;
+    visibility: hidden;
+}
+
+.form-txt-two{
+    display: none;
+    visibility: hidden;
+}
+
+.link-white{
+    color: #fff;
+}
+.link-dark {
+    color: #000;
+}
+
+.rewards-container{
+    height: 60vh;
+    background-color: rgb(253, 213, 220);
+}
+
+.rewards-txt-one{
+        width: 30rem;    
+}
+
+.rewards-txt-two{
+   display: none;
+   visibility: hidden;
+}
+
+.carousel-one{
+    height: 18.75rem;
+    width: 31.2rem;
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.carousel-two{
+    height: 18.75rem;
+    width: 31.2rem;
+}
+.choose-style-container{
+    height: 60vh;
+    background-color: rgb(216, 213, 236);
+}
+
+.choose-style-text{
+    width: 31.25rem;
+}
+.choose-style-text-two{
+    display: none;
+    visibility: hidden;
+}
+
+.onesync-choice-container{
+    display: none !important;
+    visibility: hidden;
+}
+
+.faqs-container{
+    height: 60vh;
+}
+
+.accordion-header button{
+    color: rgb(255, 71, 58);
+    font-weight: 400;
+    height: 4.3rem;
+}
+
+.accordion-header button:focus{
+    color: rgb(252, 17, 0);
+}
+
+.contact-us-one{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(10, 8, 22);
+    color: #fff;
+}
+.contact-us-two{
+    background-color: rgb(10, 8, 22);
+    color: #fff;
+}
+
+
+
+@media(max-width:1000px){
+   .main-text-div{
+       text-align: center;
+   }
+    .main-text-col-one,.main-text-col-two{
+        height: 50vh;
+    } 
+    .sub-text{
+        height: 50vh;
+    }
+    .sub-text-ad-one{
+        display: none !important;
+        visibility: hidden;
+    }
+
+    .sub-text-ad-two{
+        display: block;
+        visibility: visible;
+    }
+    .form-container{
+        height: 65vh;
+    }
+    .form-div-container{
+        background-color: #fff;
+        height: 60%;
+    }
+
+    .form-sub-one{
+        display: none !important;
+        visibility: hidden;
+    }
+
+    .form-sub-two{
+        display: block;
+        visibility: visible;
+        
+    }
+    .form-div-two{
+        background-color: rgb(169, 222, 253);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 35vh;
+        padding: 1px;
+    }
+    .form-div-two-input{
+        border: none;
+        border-radius: 30px;
+        margin: 0.1rem;
+        
+        background-color: rgb(96, 152, 255);
+    }
+ .form-div-two-input::placeholder{
+     color: #fff;
+ }
+
+.form-div-two-input::placeholder{
+    text-align: center;
+}
+  
+    .form-txt-one{
+        display: none !important;
+        visibility: hidden; 
+    }
+
+    .form-txt-two{
+        display: block;
+        visibility: visible;
+    }
+
+    .carousel-two{
+        display: none !important;
+        visibility: hidden !important; 
+    }
+    .carousel-one{
+        
+        display: block !important ;
+        visibility: visible !important;
+    }
+    
+   .rewards-container{
+       background-color: #fff;
+   }
+   .rewards-col-one{
+       background-color: rgb(253, 213, 220);
+   }
+    .rewards-txt-one{
+        display: none !important;
+        visibility: hidden; 
+    }
+    .rewards-txt-two{
+        display: block;
+        visibility: visible;
+        background-color: #fff;
+    }
+    .choose-style-container{
+        background-color: #fff;
+    }
+    .choose-style-col-one{
+        background-color: rgb(236, 231, 255);
+    }
+
+    .choose-style-text-one{
+        display: none !important;
+        visibility: hidden; 
+    }
+    .choose-style-text-two{
+        display: block;
+        visibility: visible;
+        
+    }
+    .onesync-choice-container{
+        display: block;
+        visibility: visible;
+        height: 50vh;
+        background-color: rgb(86, 81, 114);
+        color: #fff;
+    }
+    .faqs-container{
+        height: 70vh;
+    }
+}
